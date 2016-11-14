@@ -8,22 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		96AA88F41DDA46CC00AAFDAA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96AA88F31DDA46CC00AAFDAA /* AppDelegate.swift */; };
-		96AA88F61DDA46CC00AAFDAA /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96AA88F51DDA46CC00AAFDAA /* FirstViewController.swift */; };
-		96AA88F81DDA46CC00AAFDAA /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96AA88F71DDA46CC00AAFDAA /* SecondViewController.swift */; };
+		96AA88F61DDA46CC00AAFDAA /* EhVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96AA88F51DDA46CC00AAFDAA /* EhVC.swift */; };
+		96AA88F81DDA46CC00AAFDAA /* BeeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96AA88F71DDA46CC00AAFDAA /* BeeVC.swift */; };
 		96AA88FB1DDA46CC00AAFDAA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96AA88F91DDA46CC00AAFDAA /* Main.storyboard */; };
 		96AA88FD1DDA46CC00AAFDAA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96AA88FC1DDA46CC00AAFDAA /* Assets.xcassets */; };
 		96AA89001DDA46CC00AAFDAA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96AA88FE1DDA46CC00AAFDAA /* LaunchScreen.storyboard */; };
+		96AA890A1DDA494200AAFDAA /* SeaVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96AA89091DDA494200AAFDAA /* SeaVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		96AA88F01DDA46CC00AAFDAA /* GIT-ICE-SD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GIT-ICE-SD.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		96AA88F31DDA46CC00AAFDAA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		96AA88F51DDA46CC00AAFDAA /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		96AA88F71DDA46CC00AAFDAA /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		96AA88F51DDA46CC00AAFDAA /* EhVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EhVC.swift; sourceTree = "<group>"; };
+		96AA88F71DDA46CC00AAFDAA /* BeeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeeVC.swift; sourceTree = "<group>"; };
 		96AA88FA1DDA46CC00AAFDAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		96AA88FC1DDA46CC00AAFDAA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		96AA88FF1DDA46CC00AAFDAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		96AA89011DDA46CC00AAFDAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96AA89091DDA494200AAFDAA /* SeaVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SeaVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,8 +59,9 @@
 			isa = PBXGroup;
 			children = (
 				96AA88F31DDA46CC00AAFDAA /* AppDelegate.swift */,
-				96AA88F51DDA46CC00AAFDAA /* FirstViewController.swift */,
-				96AA88F71DDA46CC00AAFDAA /* SecondViewController.swift */,
+				96AA88F51DDA46CC00AAFDAA /* EhVC.swift */,
+				96AA88F71DDA46CC00AAFDAA /* BeeVC.swift */,
+				96AA89091DDA494200AAFDAA /* SeaVC.swift */,
 				96AA88F91DDA46CC00AAFDAA /* Main.storyboard */,
 				96AA88FC1DDA46CC00AAFDAA /* Assets.xcassets */,
 				96AA88FE1DDA46CC00AAFDAA /* LaunchScreen.storyboard */,
@@ -138,9 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				96AA88F81DDA46CC00AAFDAA /* SecondViewController.swift in Sources */,
+				96AA890A1DDA494200AAFDAA /* SeaVC.swift in Sources */,
+				96AA88F81DDA46CC00AAFDAA /* BeeVC.swift in Sources */,
 				96AA88F41DDA46CC00AAFDAA /* AppDelegate.swift in Sources */,
-				96AA88F61DDA46CC00AAFDAA /* FirstViewController.swift in Sources */,
+				96AA88F61DDA46CC00AAFDAA /* EhVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
